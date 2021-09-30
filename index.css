@@ -1,0 +1,184 @@
+body{  min-width: 1060;
+  margin: 0px;
+}
+
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* navbar -------------------*/
+
+.navbar { display: flex;
+  background-color: #170055;
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+  opacity: 0.8;
+  z-index: 99;
+}
+.navbar2{
+  background-color: #170055;
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+  position: absolute;
+  top: 0;
+
+}
+
+.refusion-logo{
+margin-bottom: 30px;
+}
+.navbar-item{
+  display: inline;
+  color: white;
+  font-size: 1.3rem;
+  padding-right: 70px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.item{
+  text-decoration: none;
+  border-radius: 20px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Merriweather Sans', sans-serif;
+  transition: ease-out 0.4s;
+}
+
+.item:hover {
+  color: #16C79A;
+  background-color: white;
+  box-shadow: inset 100px 0 0 0 white;
+
+}
+.profile{
+color: white;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-radius: 20px;
+  transition: ease-out 0.4s;
+  margin-bottom: 30px;
+}
+.profile:hover{
+  color: #16C79A;
+  background-color: white;
+  box-shadow: inset 100px 0 0 0 white;
+}
+/* search bar------- */
+.search-bar{
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.4rem;
+
+    color: white;
+}
+
+.searchbar{font-size: 1rem;
+  margin-top: 5px;
+  border-radius: 20px;
+  height: 40px;
+  width: 50%;
+  color: black;
+}
+fa-search{
+  color: black;
+
+}
+
+/* content------------------------------------------------------ */
+
+/* trending offer---------- */
+.offers{
+font-size: 5rem;
+height:400px;
+width: 100%;
+align-items: center;
+}
+.offers ul li{
+
+
+}
+.offers img{
+  width: 350px;
+  height: 200px;
+  margin: 30px;
+}
+.items{
+  display: inline;
+}
+/* buy from us----------- */
+.buysection{
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.solar-products {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+
+  margin-top: 100px;
+}
+
+.sp{
+display: block;
+margin-top: 30px;
+}
+
+.video{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* footer------------ */
+.footer{text-align: center;
+  background-color: #333146;
+  height: 400px;
+  width: 100%;
+}
+.footer-contact{color: black;
+  display: inline-block;
+height:200px;
+width:300px;
+color: black;
+text-align: right;
+margin-top: 100px;
+}
+
+.footer-name{color: black;
+  display: inline-block;
+height:200px;
+width:300px;
+color: black;
+text-align: left;
+}
+.mail{
+color:#170055;
+text-decoration: none;
+}
+.mail:hover{
+  color: #170055;
+  cursor: alias;
+}
+.icons{
+  display: inline-block;
+color: white;
+}
